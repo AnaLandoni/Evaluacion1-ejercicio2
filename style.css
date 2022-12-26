@@ -1,0 +1,39 @@
+header{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+}
+:root{
+    --tipografia: 'Nunito', sans-serif;
+    --colorprimario:  blueviolet; 
+}
+.contenedorlogo{
+    display: flex;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    font-family: var(--tipografia);
+    font-size: 1rem;
+}
+h1{
+    padding: 10px;
+}
+.iconologo{
+    font-size: 30px;
+    color: white;
+    background-color: var(--colorprimario);
+}
+nav>a{
+    padding: 15px;
+}
+button{
+    padding: 10px;
+    border-radius: 7px;
+    border-color: var(--colorprimario);
+    margin-left: 10px;
+    color: white;  
+    background-color: var(--colorprimario);  
+    font-size: 1rem;
+}
